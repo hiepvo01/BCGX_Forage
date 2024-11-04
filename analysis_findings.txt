@@ -1,0 +1,61 @@
+PowerCo Customer Churn Analysis - Key Findings
+==================================================
+
+1. Overall churn rate: 9.72%
+
+2. Missing Data Summary:
+id                                0
+channel_sales                     0
+cons_12m                          0
+cons_gas_12m                      0
+cons_last_month                   0
+date_activ                        0
+date_end                          0
+date_modif_prod                   0
+date_renewal                      0
+forecast_cons_12m                 0
+forecast_cons_year                0
+forecast_discount_energy          0
+forecast_meter_rent_12m           0
+forecast_price_energy_off_peak    0
+forecast_price_energy_peak        0
+forecast_price_pow_off_peak       0
+has_gas                           0
+imp_cons                          0
+margin_gross_pow_ele              0
+margin_net_pow_ele                0
+nb_prod_act                       0
+net_margin                        0
+num_years_antig                   0
+origin_up                         0
+pow_max                           0
+churn                             0
+consumption_segment               0
+customer_lifetime                 0
+
+3. Correlation with Churn:
+churn                             1.000000
+margin_net_pow_ele                0.095772
+margin_gross_pow_ele              0.095725
+forecast_meter_rent_12m           0.044245
+net_margin                        0.041135
+pow_max                           0.030362
+forecast_price_energy_peak        0.029315
+forecast_discount_energy          0.017026
+forecast_price_pow_off_peak       0.014778
+forecast_cons_12m                 0.012949
+imp_cons                         -0.001583
+forecast_cons_year               -0.002558
+forecast_price_energy_off_peak   -0.010837
+nb_prod_act                      -0.014930
+cons_gas_12m                     -0.037957
+cons_last_month                  -0.045284
+cons_12m                         -0.045968
+num_years_antig                  -0.074140
+
+4. Customer Segments Churn Rate:
+consumption_segment
+Low          9.337349
+Medium       9.832922
+High         9.969871
+Very High    9.720701
